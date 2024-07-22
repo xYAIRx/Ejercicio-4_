@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 80%;
+    border-collapse: collapse;
+    border: 3px solid navy;
+}
+th{
+    background-color: blue;
+    color: darksalmon;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+td{
+    border: rgb(144, 114, 216) 1px solid;
+}
+tr:nth-child(odd){
+    background-color: lightgreen;
+}
+#contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
